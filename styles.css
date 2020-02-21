@@ -1,0 +1,167 @@
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/*nav bar styles*/
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  background-color: #e0ebe8;
+}
+
+
+nav ul li {
+  display: inline-block;
+  margin: 55px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+nav ul li a {
+  color: #008080;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+nav ul li a:hover {
+  color: green;
+}
+
+/*contact section styles*/
+.contact {
+    top: 0;
+    background: #e0ebe8;
+    min-height: 55vh;
+    padding-top: 30vh; 
+    padding-bottom: 12vh;
+    border-bottom: solid;
+    border-color: rgba(46, 139, 86, 0.692);
+  }
+
+#profile{
+    border-color: rgb(105, 178, 238);
+    border-width: 10px;
+    border-style: groove;
+    border-radius: 50%;
+}
+
+.contact h1, p{
+        color: rgb(11, 20, 102)
+    }
+
+.contact-details {
+    display: inline-block;
+    border: 2px solid #90C695;
+    border-radius: 40%;
+    width: 60px;
+    
+    line-height: 60px;
+    background: #e0ebe8;
+    color: #008080;
+    font-size: 200%;
+  }
+
+.contact-details:hover {
+    background: #E4F1FE;
+    color: green;
+  }
+
+  /*intro styles*/
+  .intro {
+    background: #C8F7C5;
+    border-bottom: solid seagreen;
+  }
+  
+.header {
+    padding-top: 4%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+    background-color: seashell;
+    text-align: left;
+  }
+#welcome-section .header{
+    color: slateblue;
+}
+
+.section-content{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+  /*work */
+        
+#projects .header {
+    color: rgb(49, 126, 87)
+}
+
+.project-container{
+    background-color: #e0ebe8;
+}
+
+.project {
+  text-decoration: none;
+  color: #008080;
+  background-color: snow;
+  display: inline-block;
+  overflow: hidden;
+  border: 2px solid lightblue;
+  height: 220px;
+  width: 280px;
+  margin: 40px 100px;
+}
+
+.project-pic {
+  width: 100%;
+  height: 180px;
+  border-bottom: 2px solid lightblue;
+}
+
+.project-title {
+  font-weight: bold;
+}
+/*
+@media only screen and (max-width: 500px) {
+  nav ul {
+    text-align: center;
+  
+  }
+  nav ul li {
+    margin: 20px;
+  }
+  .contact{
+    padding-top: 15vh;
+    padding-bottom: 6vh;
+  }
+  .project {
+    margin: 40px 0;
+  }
+  .header{
+    padding-top: 20%;
+    text-align: center;
+  }
+}
+*/
+
+/*footer*/
+footer {
+  padding: 20px;
+  background: #22313F;
+  color: white;
+  line-height: 40px;
+}
+
+footer a {
+  color: white;
+}
+
+  
